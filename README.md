@@ -28,8 +28,7 @@ it demonstrates fundamental backend development concepts, including structured l
 ## Installation
 
 1. **Clone the Repository**
-   git clone https://github.com/your-username/tea-inventory-crud-api.git
-   cd tea-inventory-crud-api
+   git clone https://github.com/ShubhamDambal/02_express.git
 
 2. **Install Dependencies**
    npm install
