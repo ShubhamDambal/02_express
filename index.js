@@ -42,7 +42,7 @@ let nextId = 1;
 app.post('/teas', (req, res) => {
   logger.info('A post request was made to add a new tea');
   const {name, price} = req.body;
-  const newTea = {id: nextId++, name, price};
+  const newTea = {id: nextId++, name, price};  //creating object
   teaData.push(newTea);
   res.status(201).send(newTea);
 });
